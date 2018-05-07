@@ -1,0 +1,266 @@
+@media (max-width: 767px) {
+	.box-1{
+		width: 90%;
+		height: 3rem;
+		margin:0 auto;
+		margin-top: 2rem;
+		box-shadow: 0 1px 3px #ccc;
+	}
+	.box-1 .left{
+		height: 2.4rem;
+		width: 2.4rem;
+		background-image: url(../images/one.jpg);
+		-webkit-background-size: cover;
+		background-size: cover;
+		margin: 0.3rem 0 0 0.3rem;
+	}
+	.box-1 .right{
+		height: 2.4rem;
+		width: 2rem;
+		margin: 0.3rem 0 0 42%;
+	}
+	.box-1 .right span{
+		font-size: 10px;
+		float: left;
+	}
+	.box-1 .right img{
+		width: 25px;
+		margin-left: 3px
+	}
+/*-------------------------------------*/
+	.box-2{
+		width: 90%;
+		height: 5rem;
+		margin:0 auto;
+		margin-top: 1.5rem;
+		box-shadow: 0 1px 3px #ccc;
+		padding-top: 1.5rem;
+	}
+	.box-2 .progress{
+		width: 98%;
+		height: 2px;
+		background-color: #ccc;
+		margin: 0 auto;
+		position: relative;
+	}
+	.box-2 .progress span{
+		width: 1.4rem;
+		height: 0.75rem;
+		background-color: #f9a37c;
+		position: absolute;
+		left: 0px;
+		top: -17px;
+		font-size: 10px;
+		text-align: center;
+	}
+	.box-2 .progress i{
+		width:0;
+        height:0;
+        position: absolute;
+        left: 8px;
+        top: -5px;
+        border-top:3px solid #f9a37c;
+        border-right:3px solid transparent;
+        border-left:3px solid transparent;
+	}
+	.box-2 .left{
+		height: 2.4rem;
+		width: 2.4rem;
+		background-image: url(../images/two.jpg);
+		-webkit-background-size: cover;
+		background-size: cover;
+		margin: 0.5rem 0 0 0.4rem;
+	}
+	.box-2 .right{
+		height: 2.4rem;
+	    width: 54%;
+	    margin: 0.5rem 0 0 19%;
+	    position: relative;
+	}
+	.box-2 .right .b{
+		height: 2.4rem;
+		width: 2rem;
+		position: absolute;
+		top: 0;
+		left: 42%;
+	}
+	.box-2 .right .b span{
+		float: left;
+		font-size: 10px;
+	}
+	.box-2 .right .b img{
+		width: 25px;
+		margin-left: 3px
+	}
+	.box-2 .right .a{
+		height: 25px;
+		width: 25px;
+		float: left;
+		margin-top: 0.8rem;
+	}
+	.box-2 .right .a img,.box-2 .right .c img{
+		width: 25px;
+	}
+	.box-2 .right .c{
+		height: 25px;
+		width: 25px;
+		float: right;
+		margin-top: 0.8rem;
+	}
+/*-------------------------------------*/
+	.box-3{
+		width: 90%;
+		height: 5rem;
+		margin:0 auto;
+		margin-top: 1.5rem;
+		box-shadow: 0 1px 3px #ccc;
+		padding-top: 1.5rem;
+	}
+	.box-3 .progress{
+		width: 98%;
+		height: 2px;
+		background-color: #ccc;
+		margin: 0 auto;
+		position: relative;
+	}
+	.box-3 .progress span{
+		width: 1.4rem;
+		height: 0.75rem;
+		background-color: #f9a37c;
+		position: absolute;
+		left: 0px;
+		top: -17px;
+		font-size: 10px;
+		text-align: center;
+	}
+	.box-3 .progress i{
+		width:0;
+        height:0;
+        position: absolute;
+        left: 8px;
+        top: -5px;
+        border-top:3px solid #f9a37c;
+        border-right:3px solid transparent;
+        border-left:3px solid transparent;
+	}
+	.box-3 .left{
+		height: 2.4rem;
+		width: 2.4rem;
+		background-image: url(../images/two.jpg);
+		-webkit-background-size: cover;
+		background-size: cover;
+		margin: 0.5rem 0 0 0.4rem;
+	}
+	.box-3 .right{
+		height: 2.4rem;
+	    width: 54%;
+	    margin: 0.5rem 0 0 19%;
+	    position: relative;
+	}
+	.box-3 .right .b{
+		height: 2.4rem;
+		width: 2rem;
+		position: absolute;
+		top: 0;
+		left: 42%;
+	}
+	.box-3 .right .b span{
+		float: left;
+		font-size: 10px;
+	}
+	.box-3 .right .b img{
+		width: 25px;
+		margin-left: 3px
+	}
+	.box-3 .right .a{
+		height: 25px;
+		width: 25px;
+		float: left;
+		margin-top: 0.8rem;
+	}
+	.box-3 .right .a img,.box-3 .right .c img{
+		width: 25px;
+	}
+	.box-3 .right .c{
+		height: 25px;
+		width: 25px;
+		float: right;
+		margin-top: 0.8rem;
+	}
+/*-------------------------------------*/
+	.footer{
+		height: 2rem;
+		width: 2rem;
+		border-radius: 50%;
+		position: fixed;
+		bottom: 2.5%;
+		right: 5%;
+		background-image: url(../images/1.jpg);
+		-webkit-background-size: cover;
+		background-size: cover;
+		z-index: 100;
+	}
+	.footer ul{
+		border-radius: 50%;
+		width: 100%;
+		height: 100%;
+	}
+	.footer ul li{
+		border-radius: 50%;
+		width: 75%;
+		height: 75%;
+		position: absolute;
+		left: 0.1rem;
+		top: 0.1rem;
+		transition: all 0.5s
+	}
+	.footer ul li.f-one{
+		background-image: url(../images/1.jpg);
+		-webkit-background-size: cover;
+		background-size: cover;
+	}
+	.footer ul li.f-two{
+		background-image: url(../images/2.jpg);
+		-webkit-background-size: cover;
+		background-size: cover;
+	}
+	.footer ul li.f-three{
+		background-image: url(../images/3.jpg);
+		-webkit-background-size: cover;
+		background-size: cover;
+	}
+	.footer ul li.f-four{
+		background-image: url(../images/4.jpg);
+		-webkit-background-size: cover;
+		background-size: cover;
+	}
+	.footer ul li.f-five{
+		background-image: url(../images/5.jpg);
+		-webkit-background-size: cover;
+		background-size: cover;
+	}
+	.footer ul li.f-six{
+		background-image: url(../images/6.jpg);
+		-webkit-background-size: cover;
+		background-size: cover;
+	}
+	.footer ul li.f-seven{
+		background-image: url(../images/7.jpg);
+		-webkit-background-size: cover;
+		background-size: cover;
+	}
+	.footer ul li.f-end{
+		height: 2rem;
+		width: 2rem;
+		left: 0rem;
+		top: 0rem;
+		border-radius: 50%;
+		background-image: url(../images/1.jpg);
+		-webkit-background-size: cover;
+		background-size: cover;
+	}
+}
+
+@media (min-width: 768px) {
+	
+}

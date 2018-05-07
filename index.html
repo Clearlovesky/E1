@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+    <link rel="stylesheet" href="css/index.css">
+	<title>E</title>
+</head>
+<body>
+	<div class="box-1">
+		<div class="left f-left"></div>
+		<div class="right f-left">
+			<span>家的00</span>
+			<img src="images/open.png" alt="">
+		</div>
+	</div>
+	<div class="box-2">
+		<div class="progress">
+			<span>0%</span>
+			<i></i>
+		</div>
+		<div class="left f-left"></div>
+		<div class="right f-left">
+			<div class="a">
+				<img src="images/left.png" alt="">
+			</div>
+			<div class="b">
+				<span>家的00</span>
+				<img src="images/pause.png" alt="">
+			</div>
+			<div class="c">
+				<img src="images/right.png" alt="">
+			</div>
+		</div>
+	</div>
+	<div class="box-3">
+		<div class="progress">
+			<span>0%</span>
+			<i></i>
+		</div>
+		<div class="left f-left"></div>
+		<div class="right f-left">
+			<div class="a">
+				<img src="images/left.png" alt="">
+			</div>
+			<div class="b">
+				<span>家的00</span>
+				<img src="images/pause.png" alt="">
+			</div>
+			<div class="c">
+				<img src="images/right.png" alt="">
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<ul>
+			<li class="f-one"></li>
+			<li class="f-two"></li>
+			<li class="f-three"></li>
+			<li class="f-four"></li>
+			<li class="f-five"></li>
+			<li class="f-six"></li>
+			<li class="f-seven"></li>
+			<li class="f-end"></li>
+		</ul>
+	</div>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script>
+		$(".f-end").click(function(){
+			if($(this).siblings("li").hasClass("open")){
+				$(this).siblings("li").css({"left":"2px","top":"2px"})
+				$(this).siblings("li").removeClass('open')
+			}else{
+				$(".f-seven").css({"left":"-105px","top":"5px"})
+				$(".f-six").css({"left":"-102px","top":"-26px"})
+				$(".f-five").css({"left":"-93px","top":"-54px"})
+				$(".f-four").css({"left":"-76px","top":"-79px"})
+				$(".f-three").css({"left":"-52px","top":"-100px"})
+				$(".f-two").css({"left":"-24px","top":"-111px"})
+				$(".f-one").css({"left":"7px","top":"-116px"})
+				$(this).siblings("li").addClass('open')
+			}
+			
+		})
+	
+</script>
+</body>
+</html>
