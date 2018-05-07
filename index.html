@@ -85,9 +85,10 @@
 				$(this).siblings("li").addClass('open')
 			}
 		})
-		$(".f-end").siblings("li").on("touchstart",function(){
+		$(".f-end").siblings("li").on("touchstart",function(){			
 			$(".model").fadeIn()
 			$(".tip").css({"margin-top":"5rem","transition":"all 0.5s"})
+			$(".tip").html($(this).attr("class"))
 			$(".tip").on("touchstart",function(){
 				$(".model").css("display","none")
 				$(this).css({"margin-top":"-18rem","transition":"all 0.5s"})
