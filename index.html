@@ -65,9 +65,12 @@
 			<li class="f-end"></li>
 		</ul>
 	</div>
+	<div class="model">
+		<div class="tip"></div>
+	</div>
 <script src="js/jquery-3.2.1.min.js"></script>
 <script>
-		$(".f-end").click(function(){
+		$(".f-end").on("touchstart",function(){
 			if($(this).siblings("li").hasClass("open")){
 				$(this).siblings("li").css({"left":"2px","top":"2px"})
 				$(this).siblings("li").removeClass('open')
@@ -81,7 +84,16 @@
 				$(".f-one").css({"left":"7px","top":"-116px"})
 				$(this).siblings("li").addClass('open')
 			}
-			
+		})
+		$(".f-end").siblings("li").on("touchstart",function(){
+			$(".model").fadeIn()
+			$(".tip").css({"margin-top":"5rem","transition":"all 0.5s"})
+			$(".tip").on("touchstart",function(){
+				$(".model").css("display","none")
+				$(this).css({"margin-top":"-18rem","transition":"all 0.5s"})
+				$(".f-end").siblings("li").removeClass("open")
+				$(".f-end").siblings("li").css({"left":"2px","top":"2px"})
+			})
 		})
 	
 </script>
