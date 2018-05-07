@@ -478,7 +478,7 @@
 	.model{
 		width: 100%;
 		height: 100%;
-		background-color: #0c0b0bc9;
+		background-color: rgba(1,1,1,0.7);
 		position: fixed;
 		top: 0;
 		left: 0;
