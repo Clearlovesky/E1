@@ -1,4 +1,4 @@
-/*@media (max-width: 767px) {*/
+@media (max-width: 767px) {
 	.box-1{
 		width: 90%;
 		height: 3rem;
@@ -22,12 +22,46 @@
 	.box-1 .right span{
 		font-size: 10px;
 		float: left;
+		width: 100%
 	}
 	.box-1 .right img{
 		width: 25px;
 		margin-left: 3px
 	}
-/*-------------------------------------*/
+}
+@media (min-width: 768px) {
+	.box-1{
+		width: 90%;
+		height: 5rem;
+		margin:0 auto;
+		margin-top: 3rem;
+		box-shadow: 0 1px 3px #ccc;
+	}
+	.box-1 .left{
+		height: 4rem;
+		width: 4rem;
+		background-image: url(../images/one.jpg);
+		-webkit-background-size: cover;
+		background-size: cover;
+		margin: 0.5rem 0 0 0.5rem;
+	}
+	.box-1 .right{
+		height: 4rem;
+		width: 4rem;
+		margin: 0.5rem 0 0 40%;
+	}
+	.box-1 .right span{
+		font-size: 17px;
+		float: left;
+		width: 100%;
+	}
+	.box-1 .right img{
+		width: 45px;
+		margin-left: 4px
+	}
+}
+/*---------------------------------------------------------*/
+@media (max-width: 767px) {
 	.box-2{
 		width: 90%;
 		height: 5rem;
@@ -107,7 +141,91 @@
 		float: right;
 		margin-top: 0.8rem;
 	}
+}
+@media (min-width: 768px) {
+	.box-2{
+		width: 90%;
+		height: 7rem;
+		margin:0 auto;
+		margin-top: 2rem;
+		box-shadow: 0 1px 3px #ccc;
+		padding-top: 1.5rem;
+	}
+	.box-2 .progress{
+		width: 98%;
+		height: 5px;
+		background-color: #ccc;
+		margin: 0 auto;
+		position: relative;
+	}
+	.box-2 .progress span{
+		width: 1.4rem;
+		height: 0.75rem;
+		background-color: #f9a37c;
+		position: absolute;
+		left: 0px;
+		top: -17px;
+		font-size: 10px;
+		text-align: center;
+	}
+	.box-2 .progress i{
+		width:0;
+        height:0;
+        position: absolute;
+        left: 8px;
+        top: -5px;
+        border-top:3px solid #f9a37c;
+        border-right:3px solid transparent;
+        border-left:3px solid transparent;
+	}
+	.box-2 .left{
+		height: 4rem;
+		width: 4rem;
+		background-image: url(../images/two.jpg);
+		-webkit-background-size: cover;
+		background-size: cover;
+		margin: 0.7rem 0 0 0.6rem;
+	}
+	.box-2 .right{
+		height: 4rem;
+	    width: 51%;
+    	margin: 0.5rem 0 0 18%;
+	    position: relative;
+	}
+	.box-2 .right .b{
+		height: 4rem;
+		width: 4rem;
+		position: absolute;
+		top: 0;
+		left: 42%;
+	}
+	.box-2 .right .b span{
+		float: left;
+		font-size: 17px;
+		width: 100%;
+	}
+	.box-2 .right .b img{
+		width: 45px;
+		margin-left: 4px
+	}
+	.box-2 .right .a{
+		height: 45px;
+		width: 45px;
+		float: left;
+		margin-top: 1.4rem;
+	}
+	.box-2 .right .a img,.box-2 .right .c img{
+		width: 45px;
+	}
+	.box-2 .right .c{
+		height: 45px;
+		width: 45px;
+		float: right;
+		margin-top: 1.4rem;
+	}
+}
 /*-------------------------------------*/
+@media (max-width: 767px) {
 	.box-3{
 		width: 90%;
 		height: 5rem;
@@ -187,6 +305,89 @@
 		float: right;
 		margin-top: 0.8rem;
 	}
+}
+@media (min-width: 768px) {
+	.box-3{
+		width: 90%;
+		height: 7rem;
+		margin:0 auto;
+		margin-top: 2rem;
+		box-shadow: 0 1px 3px #ccc;
+		padding-top: 1.5rem;
+	}
+	.box-3 .progress{
+		width: 98%;
+		height: 5px;
+		background-color: #ccc;
+		margin: 0 auto;
+		position: relative;
+	}
+	.box-3 .progress span{
+		width: 1.4rem;
+		height: 0.75rem;
+		background-color: #f9a37c;
+		position: absolute;
+		left: 0px;
+		top: -17px;
+		font-size: 10px;
+		text-align: center;
+	}
+	.box-3 .progress i{
+		width:0;
+        height:0;
+        position: absolute;
+        left: 8px;
+        top: -5px;
+        border-top:3px solid #f9a37c;
+        border-right:3px solid transparent;
+        border-left:3px solid transparent;
+	}
+	.box-3 .left{
+		height: 4rem;
+		width: 4rem;
+		background-image: url(../images/two.jpg);
+		-webkit-background-size: cover;
+		background-size: cover;
+		margin: 0.7rem 0 0 0.6rem;
+	}
+	.box-3 .right{
+		height: 4rem;
+	    width: 51%;
+    	margin: 0.5rem 0 0 18%;
+	    position: relative;
+	}
+	.box-3 .right .b{
+		height: 4rem;
+		width: 4rem;
+		position: absolute;
+		top: 0;
+		left: 42%;
+	}
+	.box-3 .right .b span{
+		float: left;
+		font-size: 17px;
+		width: 100%;
+	}
+	.box-3 .right .b img{
+		width: 45px;
+		margin-left: 4px
+	}
+	.box-3 .right .a{
+		height: 45px;
+		width: 45px;
+		float: left;
+		margin-top: 1.4rem;
+	}
+	.box-3 .right .a img,.box-3 .right .c img{
+		width: 45px;
+	}
+	.box-3 .right .c{
+		height: 45px;
+		width: 45px;
+		float: right;
+		margin-top: 1.4rem;
+	}
+}
 /*-------------------------------------*/
 	.footer{
 		height: 2rem;
@@ -202,8 +403,8 @@
 	}
 	.footer ul{
 		border-radius: 50%;
-		width: 100%;
-		height: 100%;
+		height: 2rem;
+		width: 2rem;
 	}
 	.footer ul li{
 		border-radius: 50%;
@@ -249,6 +450,7 @@
 		-webkit-background-size: cover;
 		background-size: cover;
 	}
+@media (max-width: 767px){
 	.footer ul li.f-end{
 		height: 2rem;
 		width: 2rem;
@@ -259,6 +461,19 @@
 		-webkit-background-size: cover;
 		background-size: cover;
 	}
+}
+@media (min-width: 768px){
+	.footer ul li.f-end{
+		height: 3rem;
+	    width: 3rem;
+	    left: -0.5rem;
+	    top: -1rem;
+	    border-radius: 50%;
+	    background-image: url(../images/1.jpg);
+	    -webkit-background-size: cover;
+	    background-size: cover;
+	}
+}
 /*模态框*/
 	.model{
 		width: 100%;
